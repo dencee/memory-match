@@ -4,5 +4,5 @@ then
 else
     go get github.com/yudai/gotty
 fi
-
+export DISPLAY=:0
 go/bin/gotty -w java -jar memory-match.jar
