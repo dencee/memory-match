@@ -5,5 +5,5 @@ else
     go get github.com/yudai/gotty
 fi
 apt-get install xorg openbox
-export DISPLAY=:0
+export DISPLAY=:1
 go/bin/gotty -w java -jar memory-match.jar
