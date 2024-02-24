@@ -4,5 +4,5 @@ then
 else
     go get github.com/yudai/gotty
 fi
-sudo apt install x11-apps -y
+apt install x11-apps -y
 go/bin/gotty -w java -jar memory-match.jar
